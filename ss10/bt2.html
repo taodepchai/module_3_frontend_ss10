@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 56px;
+        background-color: blue;
+        color: white;
+        padding: 0 10px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      .navbar .item {
+        margin-right: 10px;
+      }
+      .navbar .item:last-child {
+        margin-right: 0;
+      }
+      .navbar .search input {
+        width: 100%;
+      }
+      .navbar .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="item">Trang chủ</div>
+      <div class="item">Sản phẩm</div>
+      <div class="item search">
+        <input type="text" name="search" />
+      </div>
+      <div class="item">Giới thiệu</div>
+      <div class="item">liên hệ</div>
+      <div class="item">đăng kí</div>
+      <div class="item">đăng nhập</div>
+      <div class="item avatar">
+        <img
+          width="40px"
+          height="40px"
+          style="border-radius: 50%"
+          src="1.jpg"
+          alt=""
+        />
+      </div>
+      <select name="section">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+  </body>
+</html>
